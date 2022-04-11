@@ -28,6 +28,10 @@ switch (Option)
         PrimeFactor prime = new PrimeFactor();
         prime.Prime();
         break;
+    case 6:
+        Reminder Rem = new Reminder();
+        Rem.QuadrantReminder();
+        break;
     default:
         Console.WriteLine("Enter proper Option to Execute");
         break;
