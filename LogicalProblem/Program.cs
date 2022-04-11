@@ -44,6 +44,10 @@ switch (Option)
         VovelConsonant VC = new VovelConsonant();
         VC.Vovel();
         break;
+    case 10:
+        Greatest Largest = new Greatest();
+        Largest.Largest();
+        break;
     default:
         Console.WriteLine("Enter proper Option to Execute");
         break;
