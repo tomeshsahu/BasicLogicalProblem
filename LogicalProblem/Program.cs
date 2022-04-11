@@ -40,6 +40,10 @@ switch (Option)
         EvenOdd Even = new EvenOdd();
         Even.Even();
         break;
+    case 9:
+        VovelConsonant VC = new VovelConsonant();
+        VC.Vovel();
+        break;
     default:
         Console.WriteLine("Enter proper Option to Execute");
         break;
