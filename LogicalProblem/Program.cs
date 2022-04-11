@@ -36,6 +36,10 @@ switch (Option)
         Swap Swap = new Swap();
         Swap.Swapp();
         break;
+    case 8:
+        EvenOdd Even = new EvenOdd();
+        Even.Even();
+        break;
     default:
         Console.WriteLine("Enter proper Option to Execute");
         break;
