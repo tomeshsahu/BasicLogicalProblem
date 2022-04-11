@@ -32,6 +32,10 @@ switch (Option)
         Reminder Rem = new Reminder();
         Rem.QuadrantReminder();
         break;
+    case 7:
+        Swap Swap = new Swap();
+        Swap.Swapp();
+        break;
     default:
         Console.WriteLine("Enter proper Option to Execute");
         break;
