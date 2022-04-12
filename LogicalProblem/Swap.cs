@@ -8,21 +8,20 @@ namespace LogicalProblem
 {
     public class Swap
     {
-            int temp = 0;
+            
             public void Swapp()
             {
                 Console.WriteLine("Please Enter Number1 ");
-                int Num1 = Convert.ToInt32((Console.ReadLine()));
+                int a = Convert.ToInt32((Console.ReadLine()));
 
                 Console.WriteLine("Please Enter Number2 ");
-                int Num2 = Convert.ToInt32((Console.ReadLine()));
+                int b = Convert.ToInt32((Console.ReadLine()));
 
-                temp = Num1;
-                Num1 = Num2;
-                Num2 = temp;
-
-                Console.WriteLine("Number1 = " + Num1);
-                Console.WriteLine("Number2 = " + Num2);
+            a = a + b;
+            b = a - b;
+            a = a - b;
+                Console.WriteLine("Number1 = " + a);
+                Console.WriteLine("Number2 = " + b);
 
             }
         }
