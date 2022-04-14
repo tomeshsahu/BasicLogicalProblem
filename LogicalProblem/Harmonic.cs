@@ -16,7 +16,8 @@ namespace LogicalProblem
 
                 for (int i = 1; i <= Num; i++)
                 {
-                    result = result + (0.1) / i;
+                Console.Write("1/" + i + "+", i);
+                result = result + (0.1) / i;
 
                 }
             Console.WriteLine(result);

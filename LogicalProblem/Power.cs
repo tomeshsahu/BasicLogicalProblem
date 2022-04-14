@@ -16,9 +16,9 @@ namespace LogicalProblem
 
             for (int i = 0; i <= Num; i++)
             {
-                pwr = pwr * 2;
-                Console.WriteLine("2 ^ " + "2power" + i + " = " + pwr);
-
+                
+                Console.WriteLine(Math.Pow(2, i));
+                
             }
             }
         }
