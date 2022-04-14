@@ -12,8 +12,10 @@ namespace LogicalProblem
         {
             Console.WriteLine("Please Enter Single Charactor ");
             char ch = Convert.ToChar(Console.ReadLine());
+            char ch1 = char.ToLower(ch);
 
-            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+
+            if (ch1 == 'a' || ch1 == 'e' || ch1 == 'i' || ch1 == 'o' || ch1 == 'u')
             {
                 Console.WriteLine(ch + " " + "is a Vovel");
             }
